@@ -1,0 +1,7 @@
+/node_modules
+/public/img/*
+!/public/img/.gitkeep
+
+
+
+
