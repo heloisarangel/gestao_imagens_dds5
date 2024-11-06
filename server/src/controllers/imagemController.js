@@ -1,6 +1,6 @@
 import path from 'path';
 import url from 'url';
-import { createImagem, readImagem, showOneImage, updateImagem } from '../models/ImagemModel.js';
+import { createImagem, readImagem, showOneImage, updateImagem, deleteImagem } from '../models/ImagemModel.js';
 
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
