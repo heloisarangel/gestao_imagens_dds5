@@ -87,4 +87,4 @@ export async function findUserByLoginPassword(login,senha) {
         console.log(error);
         return [500, {message: 'Erro ao mostrar usuário'}];
     }
-}0
+}
