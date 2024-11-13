@@ -74,7 +74,7 @@ export async function mostrarUmUsuario(req,res) {
 export async function findUserByLoginPassword(login,senha) {
     console.log('UsuarioModel :: findUserByLoginPassword');
     const conexao = mysql.createPool(db);
-    const sql = 'SELECT id_usuario WHERE login = ? AND senha = ?';
+    const sql = 'SELECT id_usuario FROM usuarios WHERE login = ? AND senha = ?';
    const params = [login,senha]
     try {
         const [retorno] = await conexao.query(sql,params);

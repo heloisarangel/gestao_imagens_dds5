@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 function TelaLogin() {
     const [login, setLogin] = useState('');
     const [senha, setSenha] = useState('');
+    const [descricao, setDescricao] = useState('');
+  
 
     async function efetuarLogin() {
         const dadosLogin = { login, senha };
